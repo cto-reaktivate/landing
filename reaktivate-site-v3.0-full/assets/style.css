@@ -1,0 +1,16 @@
+:root{--blue:#0077cc;--bg:#fafafa;--text:#222;--muted:#555;--line:#ddd}
+*{box-sizing:border-box}html,body{margin:0;padding:0}
+body{font-family:Inter,system-ui,Arial,sans-serif;line-height:1.6;background:var(--bg);color:var(--text)}
+.container{max-width:1040px;margin:0 auto;padding:1.5rem}
+.topnav{background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.topnav .container{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.topnav a{text-decoration:none;color:var(--blue);margin:0.5rem;font-weight:600}
+.topnav a:hover{text-decoration:underline}
+.brand{display:flex;align-items:center;gap:.5rem}.logo-dot{width:10px;height:10px;border-radius:50%;background:var(--blue);display:inline-block}
+.hero{background:#eef5fb;padding:4rem 1rem;text-align:center}.hero h1{font-size:1.9rem;margin:0 0 1rem}
+.grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem}
+details{margin-top:1rem;border-top:1px dashed var(--line);padding-top:1rem}
+summary{cursor:pointer;font-weight:700;color:var(--blue)}summary::-webkit-details-marker{display:none}
+.details-body{margin-top:.5rem;padding-left:.5rem;color:#333}
+footer{text-align:center;padding:1.5rem;background:#fff;font-size:.9rem;color:var(--muted);margin-top:2rem;border-top:1px solid var(--line)}
+section{margin-bottom:2.5rem;border-bottom:1px solid var(--line);padding-bottom:1.5rem}
